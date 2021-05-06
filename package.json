@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "3": "^2.1.0",
-    "sqlite": "^4.0.21"
+    "sqlite": "^4.0.21",
+    "sqlite3": "^5.0.2"
   }
 }
