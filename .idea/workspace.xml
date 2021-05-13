@@ -11,14 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b477e3dc-d7cd-401f-81d5-bfaa1f041bb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/NotFound.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/StateSummary.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/StateList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/StateList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/StateMap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/StateMap.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states.db" beforeDir="false" afterPath="$PROJECT_DIR$/states.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
       <workItem from="1620336637554" duration="32000" />
       <workItem from="1620340910875" duration="1704000" />
       <workItem from="1620836779205" duration="1150000" />
-      <workItem from="1620918915872" duration="5113000" />
+      <workItem from="1620918915872" duration="7426000" />
     </task>
     <servers />
   </component>
@@ -88,10 +83,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620261726760">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2585" y="122" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620940099721">
+      <screen x="1920" y="-148" width="1920" height="1040" />
     </state>
     <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.-148.1920.1040@0.0.1536.824" timestamp="1620261726760" />
+    <state x="2585" y="122" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.-148.1920.1040@1920.-148.1920.1040" timestamp="1620940099721" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1620918992374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
