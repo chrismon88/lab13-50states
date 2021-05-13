@@ -1,4 +1,9 @@
 <template>
+  <div>
+
+      <state-summary v-bind:states="states"></state-summary>
+
+
   <div class="state-list-container">
     <div class="state-container" v-for="state in states" v-bind:key="state.name">
       <!--vbinding state prop to value state which is an object an array-->
@@ -8,17 +13,22 @@
       ></state-detail>
     </div>
   </div>
+  </div>
 </template>
 
 <script>
-import StateDetail from './StateDetail.vue'
+import StateDetail from './StateDetail.vue';
+import StateSummary from "@/components/StateSummary";
 
 export default {
-  components: { StateDetail },
+  components: {
+    StateDetail,
+  StateSummary
+  },
     name: "StateList.vue",
-    data(){
-      return{
-        states:[]
+    data() {
+      return {
+        states: []
       }
     },
   mounted() {
@@ -29,11 +39,19 @@ export default {
       this.$stateService.getAllStates().then( states => {
         this.states = states
       })
+      .catch(err =>{
+        alert("Sorry, can\'t fetch state list")
+        console.error(err)
+      })
     },
     updateVisited(stateName, visited) {
         this.$stateService.setVisited(stateName, visited).then( () =>{
           this.fetchAllStates()
         })
+      .catch(err => {
+        alert("Sorry, can\'t update state")
+        console.error(err)
+      })
     }
   }
 }

@@ -1,9 +1,14 @@
 //starts express server
 let express = require('express')
 let states_api = require('./routes/states')
+let path = require('path')
 
 //create express webserver app
 let app = express()
+
+let vueAppPath = path.join(__dirname, 'client', 'dist')
+app.use(express.static(vueAppPath))
+
 //lets serve understand json data requests
 app.use(express.json())
 
